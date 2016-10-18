@@ -1,3 +1,5 @@
+# for determining the sound path in a given thickness for a given angle (ultrasonic inspecton of welds).
+
 sp <- data.frame(thickness, 
           cosine45 = seq(from = .125/.707, to = 4.0/.707, by = .125/.707),
           cosine60 = seq(from = .125/.500, to = 4.0/.500, by = .125/.500), 
